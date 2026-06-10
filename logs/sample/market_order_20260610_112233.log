@@ -1,0 +1,37 @@
+2026-06-10 11:22:33,456 - INFO - ========== NEW ORDER REQUEST ==========
+2026-06-10 11:22:33,457 - INFO - Symbol: BTCUSDT
+2026-06-10 11:22:33,457 - INFO - Side: BUY
+2026-06-10 11:22:33,457 - INFO - Type: MARKET
+2026-06-10 11:22:33,457 - INFO - Quantity: 0.010
+2026-06-10 11:22:33,458 - INFO - Sending request to: https://testnet.binancefuture.com/fapi/v1/order
+2026-06-10 11:22:33,458 - DEBUG - Request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1717754553458, 'recvWindow': 5000}
+2026-06-10 11:22:33,459 - DEBUG - Signature: a3f5e8d9c2b1a0f9e8d7c6b5a4f3e2d1c0b9a8f7e6d5c4b3a2f1e0d9c8b7a6f5
+2026-06-10 11:22:34,123 - INFO - Response status: 200
+2026-06-10 11:22:34,124 - INFO - Response body: {
+    "orderId": 14622394954,
+    "symbol": "BTCUSDT",
+    "status": "NEW",
+    "clientOrderId": "web_8f4b2e1d3c5a6b9f8e7d6c5b4a3f2e1d",
+    "price": "0",
+    "avgPrice": "0.00",
+    "origQty": "0.010",
+    "executedQty": "0.000",
+    "cumQty": "0.000",
+    "cumQuote": "0",
+    "timeInForce": "GTC",
+    "type": "MARKET",
+    "reduceOnly": false,
+    "closePosition": false,
+    "side": "BUY",
+    "positionSide": "BOTH",
+    "stopPrice": "0",
+    "workingType": "CONTRACT_PRICE",
+    "priceProtect": false,
+    "origType": "MARKET",
+    "updateTime": 1717754554123
+}
+2026-06-10 11:22:34,125 - INFO - ✅ Order placed successfully!
+2026-06-10 11:22:34,125 - INFO - Order ID: 14622394954
+2026-06-10 11:22:34,125 - INFO - Status: NEW
+2026-06-10 11:22:34,126 - INFO - Executed Quantity: 0.000
+2026-06-10 11:22:34,126 - INFO - Average Price: 0.00

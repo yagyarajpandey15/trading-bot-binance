@@ -1,9 +1,25 @@
+# Environment variables (contains sensitive API keys)
 .env
+
+# Python cache and bytecode
 __pycache__/
 *.pyc
+
+# Test cache
 .pytest_cache/
-logs/*.log
+
+# Runtime logs (ignore all logs in logs/ directory)
+logs/
+# But keep the sample logs directory and its contents
+!logs/sample/
+!logs/sample/*.log
+
+# Virtual environments
 venv/
 .venv/
+
+# Distribution / packaging
 *.egg-info/
+
+# OS files
 .DS_Store
