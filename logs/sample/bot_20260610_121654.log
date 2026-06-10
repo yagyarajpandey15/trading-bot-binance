@@ -1,0 +1,9 @@
+2026-06-10 12:16:54 [INFO] bot - log file: logs\bot_20260610_121654.log
+2026-06-10 12:16:54 [DEBUG] bot.client - client ready, base_url=https://testnet.binancefuture.com
+2026-06-10 12:16:54 [INFO] bot.orders - order request: SELL LIMIT BTCUSDT qty=0.010
+2026-06-10 12:16:54 [INFO] bot.client - placing SELL LIMIT BTCUSDT qty=0.010 price=62000.00 stop=
+2026-06-10 12:16:54 [DEBUG] bot.client - POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.010', 'price': '62000.00', 'timeInForce': 'GTC', 'timestamp': 1781074014350}
+2026-06-10 12:16:56 [DEBUG] bot.client - response 200 from https://testnet.binancefuture.com/fapi/v1/order
+2026-06-10 12:16:56 [INFO] bot.client - order placed - id=14623143487 status=NEW executedQty=0.0000
+2026-06-10 12:16:56 [DEBUG] bot.client - full response: {'orderId': 14623143487, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'lRClmDCvtFYlG2QpdiZ3f2', 'price': '62000.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1781074017155}
+2026-06-10 12:16:56 [INFO] bot.orders - done - orderId=14623143487 status=NEW

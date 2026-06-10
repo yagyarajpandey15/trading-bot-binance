@@ -1,0 +1,4 @@
+2026-06-10 12:17:05 [INFO] bot - log file: logs\bot_20260610_121705.log
+2026-06-10 12:17:05 [DEBUG] bot.client - client ready, base_url=https://testnet.binancefuture.com
+2026-06-10 12:17:05 [DEBUG] bot.client - GET /fapi/v2/account params={'timestamp': 1781074025608}
+2026-06-10 12:17:07 [DEBUG] bot.client - response 200 from https://testnet.binancefuture.com/fapi/v2/account?timestamp=1781074025608&signature=0fc03a2ca88f648c31c33532ee7eb66ccf952e16dd9d6b5adf53108bb006277f

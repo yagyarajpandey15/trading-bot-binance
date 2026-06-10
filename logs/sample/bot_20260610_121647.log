@@ -1,0 +1,9 @@
+2026-06-10 12:16:47 [INFO] bot - log file: logs\bot_20260610_121647.log
+2026-06-10 12:16:47 [DEBUG] bot.client - client ready, base_url=https://testnet.binancefuture.com
+2026-06-10 12:16:47 [INFO] bot.orders - order request: BUY MARKET BTCUSDT qty=0.010
+2026-06-10 12:16:47 [INFO] bot.client - placing BUY MARKET BTCUSDT qty=0.010 price=market stop=
+2026-06-10 12:16:47 [DEBUG] bot.client - POST /fapi/v1/order params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781074007893}
+2026-06-10 12:16:49 [DEBUG] bot.client - response 200 from https://testnet.binancefuture.com/fapi/v1/order
+2026-06-10 12:16:49 [INFO] bot.client - order placed - id=14623136245 status=NEW executedQty=0.0000
+2026-06-10 12:16:49 [DEBUG] bot.client - full response: {'orderId': 14623136245, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '56aLysmVt5L8zDN4Htue57', 'price': '0.00', 'origQty': '0.0100', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1781074010743}
+2026-06-10 12:16:49 [INFO] bot.orders - done - orderId=14623136245 status=NEW

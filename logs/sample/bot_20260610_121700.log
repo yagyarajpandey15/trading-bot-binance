@@ -1,0 +1,5 @@
+2026-06-10 12:17:00 [INFO] bot - log file: logs\bot_20260610_121700.log
+2026-06-10 12:17:00 [DEBUG] bot.client - client ready, base_url=https://testnet.binancefuture.com
+2026-06-10 12:17:00 [DEBUG] bot.client - GET /fapi/v1/ticker/price params={'symbol': 'BTCUSDT'}
+2026-06-10 12:17:02 [DEBUG] bot.client - response 200 from https://testnet.binancefuture.com/fapi/v1/ticker/price?symbol=BTCUSDT
+2026-06-10 12:17:02 [INFO] bot.client - price check BTCUSDT = 61382.40
